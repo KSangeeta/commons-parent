@@ -349,7 +349,7 @@
                             <configuration>
                                 <executable>node</executable>
                                 <commandlineArgs>
-                                    apigeelint -s apiproxy/ -f html.js
+                                    node_modules/apigeelint/cli.js -s apiproxy/ -f html.js
                                 </commandlineArgs>
                             </configuration>
                         </execution>
