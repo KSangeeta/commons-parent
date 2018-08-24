@@ -349,7 +349,7 @@
                             <configuration>
                                 <executable>node</executable>
                                 <commandlineArgs>
-                                    node_modules/apigeelint/cli.js cover --dir target/proxy-linting-coverage
+                                    node_modules/apigeelint/cli.js -s apiproxy/ -f target/proxy-linting-coverage
                                 </commandlineArgs>
                             </configuration>
                         </execution>
